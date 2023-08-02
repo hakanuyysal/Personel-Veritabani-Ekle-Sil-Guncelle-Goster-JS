@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYD ANONİM ŞİRKETİ-SİZİNLE DÜNYANIN HER YERİNE VARIZ :D</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="/jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="/sweetalert2.css">
+    <script src="/sweetalert2.all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    
+        <nav id="navbb" class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid ">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <h1 id="baslikk" class="ms-auto">TYD AS. Sirket Veritabanı</h1>
+        </li>
+        <li class="nav-item">
+          <button id="btn0" class="btn btn-danger ">TÜM PERSONEL</button>
+        </li>
+        <li class="nav-item">
+          <button id="btn1" class="btn btn-danger ">PERSONEL EKLE</button>
+        </li>
+        <li class="nav-item">
+          <button id="btn2" class="btn btn-danger ">PERSONEL GÜNCELLE</button>
+        </li>
+        <li class="nav-item">
+          <button id="btn3" class="btn btn-danger ">PERSONEL SİL</button>
+        </li>
+        <li class="nav-item ms-auto">
+          <p>Hakan UYSAL(Dev.) ID:05631</p>
+        </li>
+        <li class="nav-item">
+          <button id="btn4" class="btn btn-warning "><b>ÇIKIŞ YAP</b></button>
+        </li>
+        
+      </ul>
+    </div>
+  
+</nav>
+    </div>
+    <div class="container">
+        <h3 id="baslik"> PERSONEL VERİTABANI</h3>
+        <div id="div1" class="input-group input-group-lg">
+          
+            <input list="aramaListesi" id="aramaKutusu" class="form-control border border-danger" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Arama Yapmak İstediğiniz Personeli Giriniz.. ">
+            <button class="btn btn-danger">ARA</button>
+          </div>
+        <datalist id="aramaListesi" >
+           
+        </datalist>
+    </div>
+    <div class="footer">
+      <h2 id="bsl"><B>PERSONEL BİLGİLERİ </B><button id="btnx" class="btn btn-danger">KAPAT</button></h2>
+      <div id="sonuc">
+        
+        <!-- sonuclar burda gozukecek -->
+    </div>
+    </div>
+    <div id="ekle">
+      <h2>Personel Bilgileri Gir</h2>
+      <input type="text" class="form-control border border-danger" id="ad" placeholder="Ad"><br>
+      <input type="text" class="form-control border border-danger" id="soyad" placeholder="Soyad"><br>
+      <input type="text" class="form-control border border-danger" id="yas" placeholder="Yaş"><br>
+      <input type="text" class="form-control border border-danger" id="departman" placeholder="Departman">
+      <button id="ekle-btn" class="btn btn-success">EKLE</button>
+    </div>
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>
